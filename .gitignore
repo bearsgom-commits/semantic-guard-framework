@@ -1,0 +1,14 @@
+# local-only paths
+../private_data/
+../artifacts/
+../runs/
+
+# embeddings/index
+*.npy
+*.index
+*.faiss
+*.bin
+*.pt
+
+# mac
+.DS_Store
