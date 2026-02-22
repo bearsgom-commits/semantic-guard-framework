@@ -1,0 +1,10 @@
+paths:
+  local_root: /Users/kimdoyeon/Downloads/research/semantic-guard
+
+  repo_dir: /Users/kimdoyeon/Downloads/research/semantic-guard/repo
+  private_data_dir: /Users/kimdoyeon/Downloads/research/semantic-guard/private_data
+  artifacts_dir: /Users/kimdoyeon/Downloads/research/semantic-guard/artifacts
+  runs_dir: /Users/kimdoyeon/Downloads/research/semantic-guard/runs
+
+  beir_root: /Users/kimdoyeon/Downloads/research/semantic-guard/private_data/beir
+  summary_dir: /Users/kimdoyeon/Downloads/research/semantic-guard/repo/results/summary

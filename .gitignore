@@ -12,3 +12,4 @@
 
 # mac
 .DS_Store
+configs/paths.yaml

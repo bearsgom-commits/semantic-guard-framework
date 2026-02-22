@@ -1,0 +1,34 @@
+project:
+  name: semantic-guard-framework
+  device: auto  # cpu|mps|cuda|auto
+
+datasets:
+  names: [trec-covid, scifact, fiqa]
+
+model:
+  embedding_model: intfloat/multilingual-e5-base
+  batch_size: 64
+  max_length: 256
+  normalize: true
+
+guard:
+  L: 3
+  alpha: 0.2
+  eps_list: [0, 2, 4, 8, 16, 32, 64]
+
+index:
+  backend: faiss_hnsw
+  dim: auto
+  M: 32
+  ef_construction: 200
+  ef_search: 128
+
+retrieval:
+  topk: [1, 5, 10]
+  metric: cosine
+  report_ndcg_at: 10
+
+privacy_eval:
+  enable_mia: true
+  enable_inversion: true
+  enable_exposure: true
