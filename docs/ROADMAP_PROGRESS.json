@@ -1,0 +1,11 @@
+{
+  "roadmap_version": "fixed_15_step",
+  "current_phase": 4,
+  "current_step": 13,
+  "phase_name": "multi_dataset_extension",
+  "completed_steps": [1,2,3,4,5,6,7,8,9,10,11,12],
+  "active_dataset": "trec-covid",
+  "active_seed": null,
+  "active_eps": null,
+  "next_action": "run_trec_covid_pipeline"
+}
